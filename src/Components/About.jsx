@@ -39,7 +39,7 @@ const About = () => {
   }, []);
   return (
     <div className=" my-10 sm:mt-32 bg-zinc-900">
-      <div className="about-me text-5xl sm:text-7xl tracking-tighter sm:tracking-normal text-center flex flex-col gap-4 px-4">
+      <div className="about-me text-4xl sm:text-7xl tracking-tighter sm:tracking-normal text-center flex flex-col gap-4 px-4">
         <h1 ref={aboutPart1Ref} className="opacity-0">
           Hi!
         </h1>
@@ -52,20 +52,17 @@ const About = () => {
           backend technologies.
         </h1>
         <h1 ref={aboutPart3Ref} className="opacity-0">
-          As a budding Front-End Developer, I bring a foundational understanding
-          of HTML, CSS, and JavaScript, coupled with a passion for learning and
-          growth. Proficient in <span className=" text-[#60DAFA]">React</span>,
-          I am eager to apply my skills to craft engaging user interfaces.
-          Familiarity with database management using{" "}
+          As a budding Front-End Developer, I bring a strong foundation in HTML,
+          CSS, and JavaScript, with proficiency in{" "}
+          <span className=" text-[#60DAFA]">React</span>. I'm eager to craft
+          engaging user interfaces and explore animation libraries like{" "}
+          <span className="text-[#88CE02]">GSAP</span>. Familiar with{" "}
           <span className="text-[#E48E00]">MySQL</span> and{" "}
-          <span className="text-[#4FA940]">MongoDB</span> underscores my
-          commitment to mastering full-stack development. Excited to delve into
-          animation libraries like <span className="text-[#88CE02]">GSAP</span>{" "}
-          to enhance user experiences. While my experience with{" "}
-          <span className="text-[#EC2026]">Java</span> is nascent, I am
-          enthusiastic about expanding my backend capabilities. With a keen eye
-          for detail and a dedication to continuous improvement, I am poised to
-          contribute and thrive in collaborative environments.
+          <span className="text-[#4FA940]">MongoDB</span> for database
+          management, I'm committed to mastering full-stack development. While
+          my <span className="text-[#EC2026]">Java</span> skills are developing,
+          I'm enthusiastic about expanding my backend capabilities and thrive in
+          collaborative environments.
         </h1>
       </div>
       <div className=" flex mt-10 justify-center">

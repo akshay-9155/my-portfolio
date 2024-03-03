@@ -16,7 +16,7 @@ const Intro = ({ navBarRef }) => {
         scrub: 2,
       },
     });
-  });
+  }, []);
   return (
     <div className=" w-screen bg-zinc-900">
       <div className="flex items-center justify-center">
