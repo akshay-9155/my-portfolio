@@ -20,18 +20,18 @@ const Header = ({ navBarRef }) => {
       duration: 1,
       scrollTrigger: {
         trigger: navBarRef.current,
-        start: "top, -5%",
+        start: "top, top",
       },
     });
   });
-  const handleClick = ()=>{
+  const handleClick = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
-  }
+  };
   return (
-    <div className="nav-bar fixed top-0 w-screen z-10" ref={navBarRef}>
+    <div className="nav-bar fixed top-0 w-screen opacity-95" ref={navBarRef}>
       <header className="flex justify-between items-center bg-zinc-900 p-5">
         <a
           className="flex flex-col text-[5vw] sm:text-[2vw] uppercase font-bold"

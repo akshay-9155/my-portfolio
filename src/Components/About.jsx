@@ -38,7 +38,7 @@ const About = () => {
     });
   }, []);
   return (
-    <div className=" my-10 sm:mt-32">
+    <div className=" my-10 sm:mt-32 bg-zinc-900">
       <div className="about-me text-5xl sm:text-7xl tracking-tighter sm:tracking-normal text-center flex flex-col gap-4 px-4">
         <h1 ref={aboutPart1Ref} className="opacity-0">
           Hi!

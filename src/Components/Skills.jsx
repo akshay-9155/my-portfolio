@@ -8,7 +8,6 @@ const Skills = () => {
   const delay = 0;
   const logosRef = useRef(null);
   useEffect(() => {
-    console.log(logosRef.current.children);
     gsap.to(logosRef.current.children, {
       opacity: 1,
       x: 0,
@@ -29,7 +28,7 @@ const Skills = () => {
     document.getElementById(id).style.display = "none";
   };
   return (
-    <div className="bg-zinc-900 px-5 py-20 sm:px-20">
+    <div className="bg-zinc-800 px-5 py-20 sm:px-20">
       <h1 className="tracking-tighter text-4xl sm:text-5xl font-bold">
         Things I am <span className="text-sky-400">good</span> at
       </h1>

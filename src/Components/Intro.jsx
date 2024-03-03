@@ -18,7 +18,7 @@ const Intro = ({ navBarRef }) => {
     });
   });
   return (
-    <div className=" w-screen ">
+    <div className=" w-screen bg-zinc-900">
       <div className="flex items-center justify-center">
         <span className="text-7xl sm:text-9xl text-center my-10 tracking-tighter before:content-['Who_is'] before:absolute before:-translate-x-1 before:-translate-y-1 before:text-stroke">
           Who is
