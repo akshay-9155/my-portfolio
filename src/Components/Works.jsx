@@ -14,16 +14,17 @@ const Works = () => {
       </div>
       <div className="flex flex-wrap gap-5 py-10 rounded-xl sm:rounded-3xl justify-center bg-zinc-200 p-3">
         {projects.map((item, index) => (
-          <img
-            className=" h-[6.5rem] sm:h-60 rounded-md sm:rounded-lg"
-            key={index}
-            src={item.url}
-            alt=""
-          />
+          <a href={item.githubLink} target="null" key={index}>
+            <img
+              className=" h-[6.5rem] sm:h-60 rounded-md sm:rounded-lg"
+              src={item.url}
+              alt=""
+            />
+          </a>
         ))}
       </div>
       <a
-        href="https://www.linkedin.com/in/akshay-anand-7aa481288"
+        href="https://github.com/akshay-9155?tab=repositories"
         target="null"
         className="mt-12 flex justify-end"
       >

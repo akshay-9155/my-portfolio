@@ -44,14 +44,28 @@ const About = () => {
           Hi!
         </h1>
         <h1 ref={aboutPart2Ref} className="opacity-0">
-          I'm Akshay, a full stack web developer and a freelance UI/UX designer.
+          I'm Akshay, a front-end developer specializing in{" "}
+          <span className=" text-[#E44C20]">HTML</span>,
+          <span className=" text-[#1F63B0]">CSS</span>,{" "}
+          <span className=" text-[#F7E01D]">JavaScript</span>, and{" "}
+          <span className=" text-[#60DAFA]">React</span>, poised to expand into
+          backend technologies.
         </h1>
         <h1 ref={aboutPart3Ref} className="opacity-0">
-          I've been a part of Sheryians for 2 years and taught more than 500+
-          students full-stack web development, As a web developer, my best work
-          is Sheryians's website which is a course-selling website similar to
-          awwwards or udemy. Along with that I've also created more than 50+
-          websites for my clients in Bhopal.
+          As a budding Front-End Developer, I bring a foundational understanding
+          of HTML, CSS, and JavaScript, coupled with a passion for learning and
+          growth. Proficient in <span className=" text-[#60DAFA]">React</span>,
+          I am eager to apply my skills to craft engaging user interfaces.
+          Familiarity with database management using{" "}
+          <span className="text-[#E48E00]">MySQL</span> and{" "}
+          <span className="text-[#4FA940]">MongoDB</span> underscores my
+          commitment to mastering full-stack development. Excited to delve into
+          animation libraries like <span className="text-[#88CE02]">GSAP</span>{" "}
+          to enhance user experiences. While my experience with{" "}
+          <span className="text-[#EC2026]">Java</span> is nascent, I am
+          enthusiastic about expanding my backend capabilities. With a keen eye
+          for detail and a dedication to continuous improvement, I am poised to
+          contribute and thrive in collaborative environments.
         </h1>
       </div>
       <div className=" flex mt-10 justify-center">

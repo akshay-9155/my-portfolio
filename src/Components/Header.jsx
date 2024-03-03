@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import pdfUrl from '../assets/AkshayResume.pdf'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -29,6 +30,14 @@ const Header = ({ navBarRef }) => {
       top: 0,
       behavior: "smooth",
     });
+  };
+  const handleDownload = () => {
+    const a = document.createElement("a");
+    a.href = pdfUrl;
+    a.download = "AkshayResume.pdf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
   return (
     <div className="nav-bar fixed top-0 w-screen opacity-95" ref={navBarRef}>
@@ -62,12 +71,14 @@ const Header = ({ navBarRef }) => {
         </div>
         <a
           href="#"
+          onClick={handleDownload}
           className="px-4 py-2 text-lg sm:hidden font-bold text-white bg-purple-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-full"
           role="button"
         >
           <span>get resume</span>
         </a>
         <a
+          onClick={handleDownload}
           href="#"
           className="px-5 py-3 hidden sm:block text-lg font-bold text-white bg-purple-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-full"
           role="button"

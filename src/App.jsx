@@ -40,7 +40,7 @@ const App = () => {
       <About />
       <Skills />
       <Works />
-      <WatchMore />
+      {/* <WatchMore /> */}
       <Footer />
     </div>
   );

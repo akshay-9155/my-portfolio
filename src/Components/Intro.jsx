@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import profilePhoto from "../assets/myImg.jpg";
+import profilePhoto from "../assets/myImg.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -24,10 +24,10 @@ const Intro = ({ navBarRef }) => {
           Who is
         </span>
       </div>
-      <div className="flex justify-center max-width">
+      <div className="flex justify-center max-width ">
         <img
-          src="https://images.unsplash.com/photo-1682686580224-cd46ea1a6950?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8"
-          className=" w-[90vw] sm:w-[60vw]"
+          src={profilePhoto}
+          className=" w-[90vw] rounded-xl sm:w-[70vw]"
           alt=""
         />
       </div>

@@ -3,39 +3,28 @@ const nanoid = customAlphabet('1234567890abcdef', 10)
 const projects = [
     {
         id: nanoid(),
-        url: "projectsImg/img1.jpg"
+        url: "projectsImg/ochiDesign.gif",
+        githubLink: "https://akshay-9155.github.io/ochi-design-clone/"
     },
     {
         id: nanoid(),
-        url: "projectsImg/img2.jpg"
+        url: "projectsImg/notesApp.gif",
+        githubLink: "https://akshay-9155.github.io/project-todo-list/"
     },
     {
         id: nanoid(),
-        url: "projectsImg/img3.jpg"
+        url: "projectsImg/chessClock.gif",
+        githubLink: "https://akshay-9155.github.io/chess-clock/"
     },
     {
         id: nanoid(),
-        url: "projectsImg/img4.jpg"
+        url: "projectsImg/calculator.gif",
+        githubLink: "https://akshay-9155.github.io/project-calculator/"
     },
     {
         id: nanoid(),
-        url: "projectsImg/img5.jpg"
-    },
-    {
-        id: nanoid(),
-        url: "projectsImg/img6.jpg"
-    },
-    {
-        id: nanoid(),
-        url: "projectsImg/img7.jpg"
-    },
-    {
-        id: nanoid(),
-        url: "projectsImg/img8.jpg"
-    },
-    {
-        id: nanoid(),
-        url: "projectsImg/img9.jpg"
+        url: "projectsImg/memeGenerator.gif",
+        githubLink: "https://akshay-9155.github.io/Meme-Generator/"
     }
 ]
 export default projects;
