@@ -41,28 +41,24 @@ const About = () => {
     <div className=" my-10 sm:mt-32 bg-zinc-900">
       <div className="about-me text-4xl sm:text-7xl tracking-tighter sm:tracking-normal text-center flex flex-col gap-4 px-4">
         <h1 ref={aboutPart1Ref} className="opacity-0">
-          Hi!
+          Hi there!
         </h1>
         <h1 ref={aboutPart2Ref} className="opacity-0">
-          I'm Akshay, a front-end developer specializing in{" "}
-          <span className=" text-[#E44C20]">HTML</span>,
-          <span className=" text-[#1F63B0]">CSS</span>,{" "}
-          <span className=" text-[#F7E01D]">JavaScript</span>, and{" "}
-          <span className=" text-[#60DAFA]">React</span>, poised to expand into
-          backend technologies.
+          I'm Akshay, a full-stack developer skilled in{" "}
+          <span className="text-[#61DAFB]">React</span>,{" "}
+          <span className="text-[#8CC84B]">Node.js</span>,{" "}
+          <span className="text-[#F7B52B]">Express.js</span>, and{" "}
+          <span className="text-[#4DB33D]">MongoDB</span>. I build scalable,
+          responsive applications and continuously refine my expertise.
         </h1>
         <h1 ref={aboutPart3Ref} className="opacity-0">
-          As a budding Front-End Developer, I bring a strong foundation in HTML,
-          CSS, and JavaScript, with proficiency in{" "}
-          <span className=" text-[#60DAFA]">React</span>. I'm eager to craft
-          engaging user interfaces and explore animation libraries like{" "}
-          <span className="text-[#88CE02]">GSAP</span>. Familiar with{" "}
-          <span className="text-[#E48E00]">MySQL</span> and{" "}
-          <span className="text-[#4FA940]">MongoDB</span> for database
-          management, I'm committed to mastering full-stack development. While
-          my <span className="text-[#EC2026]">Java</span> skills are developing,
-          I'm enthusiastic about expanding my backend capabilities and thrive in
-          collaborative environments.
+          Proficient in <span className="text-[#38B2AC]">Tailwind CSS</span> for
+          sleek interfaces and <span className="text-[#F7B52B]">GSAP</span> for
+          advanced animations, I also leverage{" "}
+          <span className="text-[#4DB33D]">Socket.io</span> for real-time
+          features like messaging. I thrive on challenges, delivering creative,
+          high-quality solutions in web development and constantly expanding my
+          knowledge to stay ahead in the field.
         </h1>
       </div>
       <div className=" flex mt-10 justify-center">

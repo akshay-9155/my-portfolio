@@ -35,7 +35,7 @@ const Skills = () => {
       <h1 className="tracking-tighter text-md sm:text-xl font-bold">
         skills, interests, passion and hobbies
       </h1>
-      <div className="development flex items-center justify-center text-4xl font-bold bg-zinc-50 text-zinc-800 w-fit rounded-2xl px-5 py-2 leading-none mt-20 lowercase">
+      <div className="development flex items-center justify-center text-4xl font-bold bg-zinc-50 text-zinc-800 w-fit rounded-2xl px-5 py-2 leading-none mt-16 lowercase">
         Development
       </div>
       <div

@@ -11,15 +11,11 @@ const images = [
     },
     {
         id: nanoid(),
-        url: "logos/Java.webp"
-    },
-    {
-        id: nanoid(),
         url: "logos/NodeJs.webp"
     },
     {
         id: nanoid(),
-        url: "logos/MySQL.webp"
+        url: "logos/Express.png"
     },
     {
         id: nanoid(),
@@ -27,7 +23,15 @@ const images = [
     },
     {
         id: nanoid(),
+        url: "logos/Git.webp"
+    },
+    {
+        id: nanoid(),
         url: "logos/Github.webp"
+    },
+    {
+        id: nanoid(),
+        url: "logos/Postman.webp"
     },
     {
         id: nanoid(),
